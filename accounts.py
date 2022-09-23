@@ -24,6 +24,7 @@ class account:
         print(f"Numero da Conta: {self.nr_conta}")
         print(f"Titular: {self.nome}")
         print(f"Saldo da Conta: {self.saldo}")
+        print(f"--------------------------------")
         time.sleep(3)
 
     def transfere(self, destino, valor):
